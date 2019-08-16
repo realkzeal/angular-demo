@@ -59,7 +59,8 @@ import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

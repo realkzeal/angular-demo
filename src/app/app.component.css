@@ -2,6 +2,12 @@ mat-sidenav-container, mat-sidenav-content, mat-sidenav {
     height: 100vh;
 }
 
+mat-sidenav-container {
+    background-color: aquamarine; 
+    background-image: url("/assets/images/burj-al-arab.jpg");
+    background-size: cover;
+}
+
 mat-sidenav {
     width: 20rem
 }
