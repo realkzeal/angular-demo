@@ -1,1 +1,75 @@
-<p>home works!</p>
+<div class="home">
+  <mat-card class="search">
+    <form>
+      <h1 class="mat-headline">Where to?</h1>
+      <p class="mat-body-1">Destinations and properties around the world...</p>
+      <div class="sect">
+        <mat-form-field class="fullwidth">
+          <input matInput placeholder="Location e.g. dubai" />
+        </mat-form-field>
+      </div>
+      <mat-divider></mat-divider>
+
+      <div class="check-section sect">
+        <div class="check-dates">
+          <h4 class="mat-subheading-1">Check in</h4>
+          <input
+            matInput
+            [matDatepicker]="picker"
+            placeholder="Choose a date"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </div>
+        <div class="check-dates">
+          <h4 class="mat-subheading-1">Check Out</h4>
+          <input
+            matInput
+            [matDatepicker]="picker2"
+            placeholder="Choose a date"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="picker2"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #picker2></mat-datepicker>
+        </div>
+      </div>
+      <mat-divider></mat-divider>
+      <div class="sect">
+        <mat-form-field>
+          <mat-label>Select room</mat-label>
+          <select matNativeControl required>
+            <option value="volvo">1 room, 1 adult</option>
+            <option value="saab">1 room, 2 adult</option>
+            <option value="mercedes">More Option</option>
+          </select>
+        </mat-form-field>
+      </div>
+      <mat-divider></mat-divider>
+      <div class="sect">
+        <button mat-raised-button color="primary" class="right">
+          Search
+        </button>
+      </div>
+    </form>
+  </mat-card>
+  <div class="result">
+    <div class="result-heading">
+      <span class="mat-headline">Continue your search</span>
+      <span class="spacer"></span>
+      <a href="#" class="more">See More</a>
+    </div>
+    <mat-card>
+      <h4>Dubai, United Arab Emirates</h4>
+      <p>Sun 18 - Mon 19 August 2019, 1 night, 1 room, 2 adults</p>
+    </mat-card>
+    <mat-card>
+      <h4>Dubai, United Arab Emirates</h4>
+      <p>Sun 18 - Mon 19 August 2019, 1 night, 1 room, 2 adults</p>
+    </mat-card>
+  </div>
+</div>

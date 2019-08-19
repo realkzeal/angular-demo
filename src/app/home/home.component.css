@@ -1,0 +1,95 @@
+.home {
+    display: flex;
+    flex: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70vh;
+    margin: 0.8rem;
+}
+
+mat-card {
+    width: 50%;
+    height: 80%;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.check-section {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: space-around;
+    margin-bottom: 0.2rem;
+}
+
+.check-dates {
+    width: 50%;
+    display: block;
+    margin: 0.2rem;
+}
+
+.check-dates:not(:last-child) {
+    border-right: 1px solid;
+    margin-right: 0.3rem;
+}
+.check-dates > input {
+    width: 7rem;
+}
+
+.search {
+    width: 20rem;
+    height: 23rem;
+    margin-right: 0.8rem;
+}
+
+.sect{
+    padding-top: 0.3rem;
+}
+
+.right {
+    float: right;
+}
+
+.mat-divider{
+    margin-bottom: 0.2rem;
+}
+
+.result {
+    width: 50rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.result > mat-card {
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.result-heading {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.spacer {
+    flex: 1 0.5 auto;
+}
+
+.result-heading a {
+    text-decoration: none;
+}
+
+.result-heading a:hover {
+    text-decoration: underline;
+}
+
+.more {
+    color: whitesmoke;
+}
