@@ -4,8 +4,7 @@ mat-sidenav-container, mat-sidenav-content, mat-sidenav {
 }
 
 mat-sidenav-container {
-    background-color: aquamarine; 
-    background-image: url("/assets/images/burj-al-arab.jpg");
+    /* background-image: url("/assets/images/burj-al-arab.jpg"); */
     background-size: cover;
 }
 

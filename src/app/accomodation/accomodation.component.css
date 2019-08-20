@@ -17,11 +17,21 @@
 }
 
 .main-content h2{
-    width: 100%;
+    width: 80%;
+}
+
+.explore-heading, .explore-body {
+    margin-top: 0.2rem;
+    margin-left: 0.4rem ;
+    margin-bottom: 0.2rem;
+}
+
+.explore-heading {
+    font-weight: bold;
 }
 
 .explore-panel {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex: row wrap;
     align-items: center;
@@ -37,8 +47,15 @@
     display: flex;
 }
 
+.explore-text {
+    padding: 0.5rem;
+    display: block;
+    overflow: hidden;
+    line-height: 0.8rem;
+}
+
 .explore-item img {
-    width: 5rem;
+    width: 6rem;
 }
 
 .explore-item div {
@@ -64,4 +81,16 @@
 .place-item img {
     width: 100%;
     height: 11.823rem;
+}
+
+.places-text {
+    margin: 0.3rem;
+    font-size: 1rem;
+    color: rgb(118, 118, 118);
+}
+
+.places-text p {
+    margin: 0;
+    font-size: 1rem;
+    color: rgb(11, 11, 11);
 }
