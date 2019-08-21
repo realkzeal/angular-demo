@@ -5,7 +5,9 @@
     align-items: center;
     justify-content: center;
 }
-
+:host /deep/ .mat-card-header-text {
+    width: 100%;
+}
 mat-checkbox {
     width: 100%;
     overflow-wrap: normal;
@@ -14,6 +16,9 @@ mat-checkbox {
     width: 40rem;
 }
 
+.signup-headline {
+    text-align: center;
+}
 .card-content {
     display: flex;
     flex: row wrap;
