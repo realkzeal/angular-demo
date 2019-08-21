@@ -1,1 +1,45 @@
-<p>signin works!</p>
+<div id="signin-page">
+  <mat-card class="signin-card">
+    <mat-card-header>
+      <mat-card-title>Welcome to Travel and Tours</mat-card-title>
+      <mat-card-subtitle>Home of hospitality</mat-card-subtitle>
+      <mat-card-title>
+        <h1 class="mat-headline">Sign In</h1>
+      </mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content class="card-content">
+      <div class="card-section">
+        <form>
+          <mat-form-field class="input-field">
+            <input matInput placeholder="username" />
+          </mat-form-field>
+
+          <mat-form-field class="input-field">
+            <input matInput placeholder="password" type="password" />
+          </mat-form-field>
+          <mat-card-actions>
+            <button
+              mat-stroked-button
+              color="accent"
+              class="input-field fullwidth"
+            >
+              Sign in
+            </button>
+            <button mat-flat-button class="input-field fullwidth">
+              Forgot Password
+            </button>
+            <mat-checkbox>Remember me</mat-checkbox>
+          </mat-card-actions>
+        </form>
+      </div>
+      <div class="card-section">
+        <img src="/assets/images/hotel.jpg" />
+        <p>Enjoy Lowest rate at all time</p>
+        <button mat-stroked-button color="accent" class="input-field fullwidth">
+          Sign up
+        </button>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

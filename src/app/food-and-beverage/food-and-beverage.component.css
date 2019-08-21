@@ -1,0 +1,31 @@
+#main-content {
+    width: 100%;
+}
+
+.dining {
+    width: 80%;
+    margin: auto;
+}
+
+.dining h1 {
+    text-align: center;
+}
+
+.dining > img {
+    height: 29.47rem;
+    margin-bottom: 5rem;
+}
+
+.ads, .services {
+    width: 45%;
+    margin: auto;
+    display: block;
+}
+.ads-img {
+    width: 100%;
+    margin-bottom: 0; 
+}
+
+.dining-service {
+    display: flex;
+}

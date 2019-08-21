@@ -1,1 +1,67 @@
-<p>signup works!</p>
+<div id="signup-page">
+  <mat-card class="signup-card">
+    <mat-card-header>
+      <mat-card-title>Welcome to Travel and Tours</mat-card-title>
+      <mat-card-subtitle>Home of hospitality</mat-card-subtitle>
+      <mat-card-title>Sign Up</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content class="card-content">
+      <div class="card-section">
+        <form>
+          <mat-form-field class="input-field">
+            <input matInput placeholder="First Name" />
+          </mat-form-field>
+
+          <mat-form-field class="input-field">
+            <input matInput placeholder="Last Name" />
+          </mat-form-field>
+
+          <mat-form-field class="input-field">
+            <mat-label>Country/Region</mat-label>
+            <select matNativeControl required>
+              <option value="1">Nigeria</option>
+              <option value="4">Togo</option>
+              <option value="3">South Africa</option>
+              <option value="5">Eygpt</option>
+            </select>
+          </mat-form-field>
+
+          <mat-form-field class="input-field">
+            <input matInput placeholder="Zip/Postal code" />
+          </mat-form-field>
+
+          <mat-form-field class="input-field">
+            <input matInput placeholder="Email" type="email" />
+          </mat-form-field>
+
+          <mat-form-field class="input-field">
+            <input matInput placeholder="password" type="password" />
+          </mat-form-field>
+
+          <mat-card-actions>
+            <button
+              mat-stroked-button
+              color="accent"
+              class="input-field fullwidth"
+            >
+              Sign up
+            </button>
+            <button mat-flat-button class="input-field fullwidth">
+              Forgot Password
+            </button>
+            <mat-checkbox
+              >I would like to receive account updates, program news and
+              offers.</mat-checkbox
+            >
+
+            <mat-checkbox
+              >I would like to receive exclusive offers from select third
+              parties.</mat-checkbox
+            >
+          </mat-card-actions>
+        </form>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
